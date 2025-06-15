@@ -15,11 +15,9 @@ The primary objective of this project is to develop a robust and accurate machin
     * **Model Selection**: Identification of the "RNN 5" model as the best performer due to its consistent low MAE values, indicating its strong generalization capabilities.
     * **Future Improvements**: Recommendations for model optimization, including hyperparameter tuning, exploring advanced architectures (e.g., Bi-directional LSTMs, CNN-LSTM), and implementing early stopping techniques.
 
-<!--* **`Part3_GoldPrice.csv`**: This CSV file contains the historical gold price data from 1985 to 2023, including prices in USD, EUR, GBP, INR, AED, and CNY. This dataset is crucial for the execution and reproducibility of the Jupyter notebook.
-
 ## Dataset
 
-The project relies on the `Part3_GoldPrice.csv` dataset, which includes daily gold prices from 1985 to 2023 across several major currencies. This dataset is read directly from a specified path within the notebook.-->
+This project relies on a historical gold price dataset (`Part3_GoldPrice.csv`) covering the period from 1985 to 2023. **Please note: This data file is not included in this repository.** The Jupyter notebook is configured to load this dataset from a Google Drive path (`/content/drive/MyDrive/Part3_GoldPrice.csv`). To run the notebook, you will need to provide this dataset at the specified path or modify the notebook to load your own gold price data.
 
 ## Technologies Used
 
@@ -36,8 +34,9 @@ To explore or run the analysis:
 
 1.  Clone this repository.
 2.  Ensure you have Python installed along with the necessary libraries (you can install them via `pip install pandas numpy matplotlib scikit-learn tensorflow`).
-3.  Open `gold_price_prediction_time_series.ipynb` in a Jupyter environment (e.g., Jupyter Lab, VS Code with Jupyter extension, or Google Colab).
-4.  Run the cells sequentially to execute the data loading, preprocessing, model training, and evaluation steps.
+3.  **Provide the `Part3_GoldPrice.csv` dataset**: You will need to obtain this dataset and ensure it is accessible to the notebook (e.g., by uploading it to your Google Drive at the path `/content/drive/MyDrive/Part3_GoldPrice.csv` if using Google Colab, or placing it in an appropriate local directory and updating the notebook's file path).
+4.  Open `gold_price_prediction_time_series.ipynb` in a Jupyter environment (e.g., Jupyter Lab, VS Code with Jupyter extension, or Google Colab).
+5.  Run the cells sequentially to execute the data loading, preprocessing, model training, and evaluation steps.
 
 ## Contact
 
